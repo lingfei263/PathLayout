@@ -96,7 +96,7 @@ public class PathLayout extends HorizontalScrollView implements OnClickListener 
 
     private TextView getPathTextView() {
         TextView textView = new TextView(this.getContext());
-        textView.setBackgroundResource(R.drawable.file_location_item_bg);
+        textView.setBackgroundResource(R.drawable.item_bg);
         textView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 15);
         textView.setGravity(Gravity.RIGHT);
         textView.setTextColor(this.getContext().getResources().getColor(R.color.text_color));

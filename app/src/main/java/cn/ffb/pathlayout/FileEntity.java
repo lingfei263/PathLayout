@@ -8,6 +8,16 @@ public class FileEntity {
     private String title;
     private boolean isFile;
 
+    public FileEntity(String title, boolean isFile) {
+        this.title = title;
+        this.isFile = isFile;
+    }
+
+    public FileEntity(String title) {
+        this.title = title;
+        this.isFile = false;
+    }
+
     public String getTitle() {
         return title;
     }
